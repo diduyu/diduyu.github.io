@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /about/
+Allow: /tags/
+Allow: /categories/
+Allow: /archives/
+Allow: /404.html
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+
+Sitemap: https://diduyu.github.io/sitemap.xml
+Sitemap: https://diduyu.github.io/baidusitemap.xml
+Sitemap: https://diduyu.coding.me/sitemap.xml
+Sitemap: https://diduyu.coding.me/baidusitemap.xml
+Sitemap: https://diduyu.gitee.io/sitemap.xml
+Sitemap: https://diduyu.gitee.io/baidusitemap.xml
