@@ -300,6 +300,8 @@
     </div>
   
 
+
+
 </nav>
 <style>
 #diduyu:hover{
@@ -489,7 +491,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">帝都鱼</span>
+  <a class="theme-link" href="https://diduyu.github.io"><span class="author" itemprop="copyrightHolder">帝都鱼</span></a>
 
   
 </div>
@@ -504,24 +506,6 @@
 
 
   <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
-
-<p id="hitokoto">每一个不曾起舞的日子，都是对生命的辜负!</p>
-<p id="showDate"></p>
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript">
-	$(function(){
-		setInterval("getTime();",1000); //每隔一秒运行一次
-	})
-	function getTime(){
-		var myDate = new Date();
-		var date = myDate.toLocaleDateString();
-		var hours = myDate.getHours();
-		var minutes = myDate.getMinutes();
-		var seconds = myDate.getSeconds();
-		$("#showDate").html(date+" "+hours+":"+minutes+":"+seconds);
-	}
-</script>
 
 
 
