@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-23T02:40:36.564Z</updated>
+  <updated>2018-06-23T10:04:26.957Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>less学习笔记</title>
+    <link href="http://yoursite.com/2018/06/23/less/"/>
+    <id>http://yoursite.com/2018/06/23/less/</id>
+    <published>2018-06-23T11:00:00.000Z</published>
+    <updated>2018-06-23T10:04:26.957Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="less" scheme="http://yoursite.com/tags/less/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
