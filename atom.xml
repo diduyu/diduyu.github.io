@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://diduyu.github.io/"/>
-  <updated>2018-06-23T10:04:26.957Z</updated>
+  <updated>2018-06-24T01:24:50.598Z</updated>
   <id>https://diduyu.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>webstrom配置less</title>
+    <link href="https://diduyu.github.io/2018/06/24/webstrom-less/"/>
+    <id>https://diduyu.github.io/2018/06/24/webstrom-less/</id>
+    <published>2018-06-24T00:00:00.000Z</published>
+    <updated>2018-06-24T01:24:50.598Z</updated>
+    
+    <content type="html"><![CDATA[<p>一.less官网的转换方法:<br>首先打开<code>Terminal</code>;</p><ul><li><p>1.安装命令:</p><p>  npm install -g less </p></li><li><p>2.检查安装是否成功:</p><p>  lessc -v</p></li><li><p>3.转换:</p><p>  lessc main.less main.css</p></li></ul><p>使用该方法虽然可以转换，但是不是事实同步的。想要自动编译的话，使用第二种方法。</p><p>二.webstrom配置less的方法:</p><ul><li><p>1.下载<a href="https://plugins.jetbrains.com/plugin/download?rel=true&amp;updateId=14973" title="LESS CSS Compiler" target="_blank" rel="noopener">LESS CSS Compiler</a></p></li><li><p>2.安装: </p><ul><li>打开<code>WebStorm</code>，按<code>File</code> &gt;&gt; <code>Settings</code> &gt;&gt; <code>Plugins</code>进入插件安装界面，通过<code>Install plugin from disk</code>按钮，选择下载的安装包进行安装:</li></ul></li></ul><p><img src="https://s1.ax1x.com/2018/06/24/P9BUXV.png" alt="P9BUXV.png"></p><ul><li>导入<code>lessc-plugin.zip</code></li></ul><p><a href="https://imgchr.com/i/P9BdmT" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/06/24/P9BdmT.png" alt="P9BdmT.png"></a></p><ul><li>安装后点击<code>Restart WebStrom</code>重启<code>webstrom</code></li></ul><p><a href="https://imgchr.com/i/P9Bw0U" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2018/06/24/P9Bw0U.png" alt="P9Bw0U.png"></a></p><ul><li><p>3.进行配置: </p><ul><li><p>打开<code>文件</code>&gt;&gt;<code>设置</code>&gt;&gt;<code>其他设置</code>,点击<code>LESS Profiles</code>进入设置界面<br>*点击绿色<code>+</code>号可以新增一个<code>Less</code>的配置，先给该配置起个名称<code>testLess</code></p></li><li><p>设置<code>LESS source directory</code>,选择Less源文件所在路径。然后点击<code>CSS Output Directory</code>下面的绿色<code>+</code>号,选择编译后CSS文件的存放路径后确定保存即可。</p></li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一.less官网的转换方法:&lt;br&gt;首先打开&lt;code&gt;Terminal&lt;/code&gt;;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1.安装命令:&lt;/p&gt;
+&lt;p&gt;  npm install -g less &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2.检查安装是否成功:&lt;/p&gt;
+&lt;p&gt;  
+      
+    
+    </summary>
+    
+      <category term="webstrom" scheme="https://diduyu.github.io/categories/webstrom/"/>
+    
+      <category term="配置" scheme="https://diduyu.github.io/categories/webstrom/%E9%85%8D%E7%BD%AE/"/>
+    
+    
+      <category term="less" scheme="https://diduyu.github.io/tags/less/"/>
+    
+  </entry>
+  
+  <entry>
     <title>less学习笔记</title>
     <link href="https://diduyu.github.io/2018/06/23/less/"/>
     <id>https://diduyu.github.io/2018/06/23/less/</id>
     <published>2018-06-23T11:00:00.000Z</published>
-    <updated>2018-06-23T10:04:26.957Z</updated>
+    <updated>2018-06-24T00:17:51.133Z</updated>
     
     <summary type="html">
     
