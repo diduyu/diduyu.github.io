@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://diduyu.github.io/"/>
-  <updated>2018-06-24T01:27:59.680Z</updated>
+  <updated>2018-06-27T09:02:41.960Z</updated>
   <id>https://diduyu.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>webstrom配置git并关联</title>
+    <link href="https://diduyu.github.io/2018/06/27/webstrom-git/"/>
+    <id>https://diduyu.github.io/2018/06/27/webstrom-git/</id>
+    <published>2018-06-27T09:00:00.000Z</published>
+    <updated>2018-06-27T09:02:41.960Z</updated>
+    
+    <content type="html"><![CDATA[<p>一.1首先打开<code>webstrom</code>,打开项目的时候选择<code>从版本控制检出</code>，这里可以选择仓库的平台。<br><a href="https://simimg.com/i/nVymJ" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/06/27/nVymJ.md.png" alt="nVymJ.md.png"></a>、</p><ul><li><p>输入<code>git</code>相关的账号密码。</p></li><li><p>输入仓库地址，本地存储路径，项目名(默认在输入仓库地址后，会自动生成相对应的项目名)，完成后点击<code>clone</code></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一.1首先打开&lt;code&gt;webstrom&lt;/code&gt;,打开项目的时候选择&lt;code&gt;从版本控制检出&lt;/code&gt;，这里可以选择仓库的平台。&lt;br&gt;&lt;a href=&quot;https://simimg.com/i/nVymJ&quot; target=&quot;_blank&quot; rel=&quot;noop
+      
+    
+    </summary>
+    
+      <category term="webstrom" scheme="https://diduyu.github.io/categories/webstrom/"/>
+    
+      <category term="配置" scheme="https://diduyu.github.io/categories/webstrom/%E9%85%8D%E7%BD%AE/"/>
+    
+      <category term="git" scheme="https://diduyu.github.io/categories/webstrom/%E9%85%8D%E7%BD%AE/git/"/>
+    
+    
+      <category term="git" scheme="https://diduyu.github.io/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>webstrom配置less</title>

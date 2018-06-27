@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[webstrom配置git并关联]]></title>
+    <url>%2F2018%2F06%2F27%2Fwebstrom-git%2F</url>
+    <content type="text"><![CDATA[一.1首先打开webstrom,打开项目的时候选择从版本控制检出，这里可以选择仓库的平台。、 输入git相关的账号密码。 输入仓库地址，本地存储路径，项目名(默认在输入仓库地址后，会自动生成相对应的项目名)，完成后点击clone]]></content>
+      <categories>
+        <category>webstrom</category>
+        <category>配置</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[webstrom配置less]]></title>
     <url>%2F2018%2F06%2F24%2Fwebstrom-less%2F</url>
     <content type="text"><![CDATA[一.less官网的转换方法:首先打开Terminal; 1.安装命令: npm install -g less 2.检查安装是否成功: lessc -v 3.转换: lessc main.less main.css 使用该方法虽然可以转换，但是不是事实同步的。想要自动编译的话，使用第二种方法。 二.webstrom配置less的方法: 1.下载LESS CSS Compiler 2.安装: 打开WebStorm，按File &gt;&gt; Settings &gt;&gt; Plugins进入插件安装界面，通过Install plugin from disk按钮，选择下载的安装包进行安装: 导入lessc-plugin.zip 安装后点击Restart WebStrom重启webstrom 3.进行配置: 打开文件&gt;&gt;设置&gt;&gt;其他设置,点击LESS Profiles进入设置界面*点击绿色+号可以新增一个Less的配置，先给该配置起个名称testLess 设置LESS source directory,选择Less源文件所在路径。然后点击CSS Output Directory下面的绿色+号,选择编译后CSS文件的存放路径后确定保存即可。]]></content>
